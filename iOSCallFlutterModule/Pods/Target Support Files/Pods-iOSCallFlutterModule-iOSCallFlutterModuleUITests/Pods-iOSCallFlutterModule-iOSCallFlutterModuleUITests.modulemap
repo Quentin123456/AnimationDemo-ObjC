@@ -1,0 +1,6 @@
+framework module Pods_iOSCallFlutterModule_iOSCallFlutterModuleUITests {
+  umbrella header "Pods-iOSCallFlutterModule-iOSCallFlutterModuleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
