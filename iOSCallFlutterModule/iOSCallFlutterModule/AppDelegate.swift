@@ -6,6 +6,9 @@
 //
 
 import UIKit
+import Flutter
+import FlutterPluginRegistrant
+import flutter_boost
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
