@@ -16,6 +16,7 @@
 		1730AC612AA5744D00099253 /* iOSCallFlutterModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1730AC602AA5744D00099253 /* iOSCallFlutterModuleTests.swift */; };
 		1730AC6B2AA5744D00099253 /* iOSCallFlutterModuleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1730AC6A2AA5744D00099253 /* iOSCallFlutterModuleUITests.swift */; };
 		1730AC6D2AA5744D00099253 /* iOSCallFlutterModuleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1730AC6C2AA5744D00099253 /* iOSCallFlutterModuleUITestsLaunchTests.swift */; };
+		17BDF77E2AA5CA11003E1DC2 /* BoostDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BDF77D2AA5CA11003E1DC2 /* BoostDelegate.swift */; };
 		2830D0DB8DC81F8FA689E481 /* Pods_iOSCallFlutterModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5CFCEFE51B495214A604D97 /* Pods_iOSCallFlutterModule.framework */; };
 		4B07499CD3FEFA4DD1934B62 /* Pods_iOSCallFlutterModuleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDD80008CA0F788026EACA1 /* Pods_iOSCallFlutterModuleTests.framework */; };
 		C7A6D7D5AAB149AF952CE7ED /* Pods_iOSCallFlutterModule_iOSCallFlutterModuleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010B491F4A23EEBEAF29E71A /* Pods_iOSCallFlutterModule_iOSCallFlutterModuleUITests.framework */; };
@@ -53,6 +54,7 @@
 		1730AC662AA5744D00099253 /* iOSCallFlutterModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSCallFlutterModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1730AC6A2AA5744D00099253 /* iOSCallFlutterModuleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCallFlutterModuleUITests.swift; sourceTree = "<group>"; };
 		1730AC6C2AA5744D00099253 /* iOSCallFlutterModuleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCallFlutterModuleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17BDF77D2AA5CA11003E1DC2 /* BoostDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoostDelegate.swift; sourceTree = "<group>"; };
 		2DB251031ADA08760FFCFF14 /* Pods-iOSCallFlutterModule-iOSCallFlutterModuleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSCallFlutterModule-iOSCallFlutterModuleUITests.release.xcconfig"; path = "Target Support Files/Pods-iOSCallFlutterModule-iOSCallFlutterModuleUITests/Pods-iOSCallFlutterModule-iOSCallFlutterModuleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3B1A4CE6FBF4716847E36220 /* Pods-iOSCallFlutterModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSCallFlutterModule.debug.xcconfig"; path = "Target Support Files/Pods-iOSCallFlutterModule/Pods-iOSCallFlutterModule.debug.xcconfig"; sourceTree = "<group>"; };
 		452E538F25C387B4ED857D63 /* Pods-iOSCallFlutterModuleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSCallFlutterModuleTests.release.xcconfig"; path = "Target Support Files/Pods-iOSCallFlutterModuleTests/Pods-iOSCallFlutterModuleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				1730AC492AA5744D00099253 /* AppDelegate.swift */,
+				17BDF77D2AA5CA11003E1DC2 /* BoostDelegate.swift */,
 				1730AC4B2AA5744D00099253 /* SceneDelegate.swift */,
 				1730AC4D2AA5744D00099253 /* ViewController.swift */,
 				1730AC4F2AA5744D00099253 /* Main.storyboard */,
@@ -164,7 +167,6 @@
 				A81F8A5155C93CBB59E5421E /* Pods-iOSCallFlutterModuleTests.debug.xcconfig */,
 				452E538F25C387B4ED857D63 /* Pods-iOSCallFlutterModuleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -429,6 +431,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17BDF77E2AA5CA11003E1DC2 /* BoostDelegate.swift in Sources */,
 				1730AC4E2AA5744D00099253 /* ViewController.swift in Sources */,
 				1730AC4A2AA5744D00099253 /* AppDelegate.swift in Sources */,
 				1730AC4C2AA5744D00099253 /* SceneDelegate.swift in Sources */,
